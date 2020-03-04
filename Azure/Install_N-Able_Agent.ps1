@@ -1,4 +1,3 @@
-Set-ExecutionPolicy Bypass -Scope Process -Force; 
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $LocalTempDir = $env:TEMP; 
 $software = "Windows Agent*";
